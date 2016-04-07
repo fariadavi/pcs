@@ -1,4 +1,4 @@
-package l2;
+package Lista2;
 
 import java.math.BigDecimal;
 import java.util.Scanner;
@@ -13,7 +13,7 @@ public class Ex03 {
 
         String entry;
         do {
-            System.out.print("Entre com o valor de seu salário nos últimos 12 meses: ");
+            System.out.print("Entre com o valor de seu salÃ¡rio nos Ãºltimos 12 meses: ");
             entry = entrada.next();
         } while (!entry.matches("^(\\d{3}\\.?)*\\d+([,.]\\d{2})?$"));
 
