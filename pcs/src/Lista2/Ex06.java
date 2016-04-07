@@ -1,4 +1,4 @@
-package l2;
+package Lista2;
 
 import java.util.Scanner;
 
@@ -13,6 +13,6 @@ public class Ex06 {
 
         int qtdeCarac = frase.replace(" ", "").length();
         int qtdePalavras = frase.split("\\s").length;
-        System.out.println("Sua frase contém " + qtdeCarac + " caractere" + (qtdeCarac > 1 ? "s" : "") + " e " + qtdePalavras + " palavra" + (qtdePalavras > 1 ? "s" : ""));
+        System.out.println("Sua frase contÃ©m " + qtdeCarac + " caractere" + (qtdeCarac > 1 ? "s" : "") + " e " + qtdePalavras + " palavra" + (qtdePalavras > 1 ? "s" : ""));
     }
 }
