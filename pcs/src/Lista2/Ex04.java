@@ -1,4 +1,4 @@
-package l2;
+package Lista2;
 
 import java.util.Scanner;
 
@@ -20,6 +20,6 @@ public class Ex04 {
             iniciais = iniciais.concat(nome.substring(0, 1));
         }
         
-        System.out.println("Sua iniciais s„o: " + iniciais);
+        System.out.println("Sua iniciais s√£o: " + iniciais);
     }
 }
