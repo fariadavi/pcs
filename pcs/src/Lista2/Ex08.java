@@ -1,4 +1,4 @@
-package l2;
+package Lista2;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,29 +14,29 @@ public class Ex08 {
 
         mapaEstados.put("AC", "Acre");
         mapaEstados.put("AL", "Alagoas");
-        mapaEstados.put("AP", "Amap·");
+        mapaEstados.put("AP", "Amap√°");
         mapaEstados.put("AM", "Amazonas");
         mapaEstados.put("BA", "Bahia");
-        mapaEstados.put("CE", "Cear·");
+        mapaEstados.put("CE", "Cear√°");
         mapaEstados.put("DF", "Distrito Federal");
-        mapaEstados.put("ES", "EspÌrito Santo");
-        mapaEstados.put("GO", "Goi·s");
-        mapaEstados.put("MA", "Maranh„o");
+        mapaEstados.put("ES", "Esp√≠rito Santo");
+        mapaEstados.put("GO", "Goi√°s");
+        mapaEstados.put("MA", "Maranh√£o");
         mapaEstados.put("MT", "Mato Grosso");
         mapaEstados.put("MS", "Mato Grosso do Sul");
         mapaEstados.put("MG", "Minas Gerais");
-        mapaEstados.put("PA", "Par·");
-        mapaEstados.put("PB", "ParaÌba");
-        mapaEstados.put("PR", "Paran·");
+        mapaEstados.put("PA", "Par√°");
+        mapaEstados.put("PB", "Para√≠ba");
+        mapaEstados.put("PR", "Paran√°");
         mapaEstados.put("PE", "Pernambuco");
-        mapaEstados.put("PI", "PiauÌ");
+        mapaEstados.put("PI", "Piau√≠");
         mapaEstados.put("RJ", "Rio de Janeiro");
         mapaEstados.put("RN", "Rio Grande do Norte");
         mapaEstados.put("RS", "Rio Grande do Sul");
-        mapaEstados.put("RO", "RondÙnia");
+        mapaEstados.put("RO", "Rond√¥nia");
         mapaEstados.put("RR", "Roraima");
         mapaEstados.put("SC", "Santa Catarina");
-        mapaEstados.put("SP", "S„o Paulo");
+        mapaEstados.put("SP", "S√£o Paulo");
         mapaEstados.put("SE", "Sergipe");
         mapaEstados.put("TO", "Tocantins");
 
@@ -44,6 +44,6 @@ public class Ex08 {
         String sigla = entrada.nextLine();
 
         String estado = mapaEstados.get(sigla.toUpperCase());
-        System.out.println("VocÍ escolheu" + (estado == null ? " uma sigla inv·lida!" : ": " + estado));
+        System.out.println("Voc√™ escolheu" + (estado == null ? " uma sigla inv√°lida!" : ": " + estado));
     }
 }
