@@ -1,4 +1,4 @@
-package l2;
+package Lista2;
 
 import java.util.Scanner;
 
@@ -19,6 +19,6 @@ public class Ex07 {
 
         fraseFinal = fraseFinal.trim();
 
-        System.out.println("Sua frase sem o excesso de espaços: " + fraseFinal);
+        System.out.println("Sua frase sem o excesso de espaÃ§os: " + fraseFinal);
     }
 }
